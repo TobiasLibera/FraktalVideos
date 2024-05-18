@@ -1,0 +1,10 @@
+{
+    "Stauts"            :
+    [
+        "Busy"  ,
+        "Setup" ,
+        "Ready" ,
+        "Error" ,
+        "Done"
+    ]
+}

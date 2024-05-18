@@ -1,0 +1,52 @@
+{
+    "Ident"             :       "Mandelbrot_Test_0" ,
+    "Type"              :       "fractals" ,
+    "Priority"          :       0 ,
+    
+    "fractals"       :
+    {
+        "Type"              :       "mandelbrot" ,
+        "Target"            :       "MandelbrotGeneric" ,
+        
+        "NodeManagement"    :
+        {
+            "NodeRing"          :       "Opiz2" ,
+            "NrOfNodes"         :       4
+        } ,
+
+        "FileManagement"    :
+        {
+            "TargetDirectory"   :       "" ,
+            "FilePrefix"        :       "" ,
+            "FileSuffix"        :       "" ,
+            "FileExtension"     :       ".calc" ,
+            "FileType"          :       "csv" ,
+            "AsBytes"           :       false
+        } ,
+
+        "CalcManagement"    :
+        {
+            "ProcessNr"         :       4 ,
+            "WorkDistribution"  :       false
+        } ,
+
+        "CalcParameters"    :
+        {
+            "FrameNr"       :           10800 ,
+            "ZoomFactor"    :           1.01 ,
+            "ZoomPointSlct" :           20 ,
+            "Resolution"    :
+            {
+                "Width"             :       1920 ,
+                "Height"            :       1080
+            } ,
+            "InitZoomPoint" :
+            {
+                "x"                 :       1.5 ,
+                "y"                 :       0.0
+            } ,
+            "IterMap"           :       65535
+        } 
+
+    }
+}

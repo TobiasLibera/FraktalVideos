@@ -1,0 +1,43 @@
+{
+    "ID"                :       1 ,
+    "Type"              :       "Calculation" ,
+    "Status"            :       "Setup" ,
+    
+    "Calculation"       :
+    {
+        "ID"                :        1 ,
+        "Type"              :       "Fractal" ,
+        "Target"            :       "Mandelbrot" ,
+        
+        "NodeManagement"    :
+        {
+            "ID"                :       0
+        } ,
+
+        "FileManagement"    :
+        {
+            "TargetDirectory"   :       "mandelbrot_0001.calc" ,
+            "FilePrefix"        :       "" ,
+            "FileSuffix"        :       "" ,
+            "FileExtension"     :       ".csv" ,
+            "FileType"          :       "csv" ,
+            "AsBytes"           :       false
+        } ,
+
+        "CalcParameters"    :
+        {
+            "Resolution"    :
+            {
+                "Width"             :       1920 ,
+                "Height"            :       1080
+            } ,
+            "IterMap"           :       65535
+        } ,
+        
+        "CalcManagement"    :
+        {
+            "ProcessNr"         :       4 ,
+            "WorkDistribution"  :       false
+        }
+    }
+}

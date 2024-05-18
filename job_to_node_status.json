@@ -1,0 +1,9 @@
+{
+    "Stauts"            :
+    [
+        "State" ,
+        "Setup" ,
+        "Start" ,
+        "Stop"
+    ]
+}
